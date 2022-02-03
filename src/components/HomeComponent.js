@@ -1,11 +1,12 @@
-import person from '../assets/images/person.png';
+import person from '../assets/images/male.svg';
 import '../assets/style/HomeStyle.css';
 import {
     Row,
     Col,
     Figure,
     Container,
-}from 'react-bootstrap'
+}from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 
 export function HomeComponent(){
     return(
@@ -21,6 +22,9 @@ export function HomeComponent(){
                     <Container>
                         <p>Explore more detail about me below</p>
                     </Container>
+                    <Container>
+                        <Button variant="primary">Hire Me</Button>
+                    </Container>
                 </Col>
                 <Col className="mt-5">
                     <Figure className="person-image">
@@ -33,7 +37,7 @@ export function HomeComponent(){
                 </Col>
             </Row>
             <div className="arrow-down">
-                <i class="fas fa-chevron-down"></i>
+                <i className="fas fa-chevron-down"></i>
             </div>
         </div>
     );

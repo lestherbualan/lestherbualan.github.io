@@ -10,7 +10,7 @@
     margin-top: 100px;
 }
 .container .dev-name{
-    color: #fd4370;
+    color: #2546c3;
 }
 .container .detail p{
     font-family: 'Nunito', sans-serif;
@@ -19,7 +19,7 @@
     margin: 0;
 }
 .person-image{
-    opacity: .8;
+    opacity: 1;
 }
 .arrow-down{
     position: absolute;
@@ -33,7 +33,10 @@
     transition: .5s;
 }
 .arrow-down i:hover{
-    color: #fd4370;
+    color: #2546c3;
     font-size: 38px;
     text-shadow: 0 0 10px rgb(51, 51, 51);
+}
+.brand-logo{
+    padding-top: 10px;
 }
